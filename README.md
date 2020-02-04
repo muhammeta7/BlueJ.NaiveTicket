@@ -81,6 +81,11 @@ in the outer wrapper of a class?
 	* Look at the class definition in Code 2.1 and use this knowledge, along with the additional information about ordering we have given you, to try to make a list of the names of the fields, constructors, and methods in the `TicketMachine` class.
 	* Hint: There is only one constructor in the class.
 
+	1. TicketMachine is the constructor
+	2. price, balance, ticketNumber and total are the fields
+	3. the methods include getPrice(), getTicketNumber(), getBalance(), insertMoney(), calculateTotal(), incrementTicketNumber, printTicket
+
+
 ### Exercise 2.10
 * Do you notice any features of the constructor that make it significantly different from the other methods of the class?
 > It doesn't require a data type like an integer
