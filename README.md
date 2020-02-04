@@ -17,12 +17,15 @@ Work through all these exercises. You edit this file with your answers for these
 
 ### Exercise 2.2
 * What value is returned if you check the machine’s balance after it has printed a ticket?
-
+* Once the ticket is printed the balance is updated.
 ### Exercise 2.3
 * Experiment with inserting different amounts of money before printing tickets.
 	* Do you notice anything strange about the machine’s behavior?
+	* There are no refund.
 	* What happens if you insert too much money into the machine – do you receive any refund?
+	* No you do not receive  refund.
 	* What happens if you do not insert enough and then try to print a ticket?
+	* It still prints a ticket even if the amount inserted is not enough.
 
 ### Exercise 2.4
 * Try to obtain a good understanding of a ticket machine’s behavior by interacting with it on the object bench before we start looking at how the `TicketMachine` class is implemented in the next section.
@@ -31,9 +34,18 @@ Work through all these exercises. You edit this file with your answers for these
 * Create another ticket machine for tickets of a different price.
 	* Buy a ticket from that machine.
 	* Does the printed ticket look different?
+	* It looks different in terms of the ticket price amounts The strings are technically different.
 
 ### Exercise 2.6
 * Write out what you think the outer wrappers of the `Student` and `LabClass` classes might look like – do not worry about the inner part.
+* public class Student
+*	{
+
+* }
+* public class LabClass
+* {
+
+*	}
 
 ### Exercise 2.7
 Does it matter whether we write<br>
